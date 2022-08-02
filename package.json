@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "@devextreme/runtime": "3.0.7",
+    "devexpress-diagram": "2.1.63",
+    "devexpress-gantt": "4.1.32",
+    "devextreme": "22.1.4",
+    "devextreme-quill": "1.5.16",
+    "devextreme-react": "22.1.4",
+    "es6-object-assign": "1.1.0",
+    "inferno": "7.4.4",
+    "inferno-clone-vnode": "7.4.11",
+    "inferno-compat": "7.4.11",
+    "inferno-create-class": "7.4.11",
+    "inferno-create-element": "7.4.11",
+    "inferno-dom": "latest",
+    "inferno-extras": "7.4.11",
+    "inferno-hydrate": "7.4.11",
+    "jszip": "3.7.1",
+    "luxon": "1.28.0",
+    "prop-types": "15.8.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rrule": "2.6.4",
+    "whatwg-fetch": "2.0.4"
+  },
+  "description": "To display appointments from Google Calendar in the Scheduler, follow the steps below:\n\n\nGet Google API key\nFollow the instructions from step 1 in the Browser Quickstart tutorial.\n\n\nRestrict the API key\nSet application and API restrictions.\n\n\nMake your calendar public\nRefer to the following help topic: Create & manage a public Google calendar.\n\n\nGet the calendar ID\nOpen Google Calendar settings, choose the calendar to be integrated, and copy its ID from the Integrate calendar section.\n\n\nSet up the Scheduler\nConfigure the CustomStore to load data from Google Calendar as shown in this demo. If a timeZone is specified in the Scheduler, ensure it is the same as in Google Calendar.\n\n\n",
+  "name": "google-calendar-integration-devextreme-scheduler-forked",
+  "version": "0.0.0",
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
